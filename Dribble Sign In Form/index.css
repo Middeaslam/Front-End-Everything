@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+}
+
+.container_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 416px;
+  height: auto;
+}
+
+.top_sec img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 0;
+}
+
+.top_sec img:hover {
+  filter: contrast(0.5);
+  cursor: pointer;
+}
+
+.social-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_sec .g_button {
+  background: #1a73e8;
+  width: 240px;
+  max-width: 400px;
+  padding: 4px;
+  border: 0;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transform: 0.2s;
+}
+
+.google img {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  background: #fff;
+}
+
+.top_sec .g_button span {
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.g_button:hover {
+  background: #1c64c4;
+}
+
+.twitter {
+  font-size: 18px;
+  background: #f3f3f4;
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  background: #dddde3;
+}
+
+h3 {
+  margin-bottom: 26px;
+  font-size: 24px;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  color: #6e6d7a;
+  text-align: center;
+  margin: 35px 0;
+}
+
+hr::after {
+  content: 'Or';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font: normal 14px/14px 'Haas Grot Text R Web', 'Helvetica Neue', Helvitaca;
+  padding: 0 16px;
+  background: #fff;
+}
+
+.inp label {
+  font: 500 15px/24px 'poppins', 'Helvetica Neue', Helvitaca;
+  color: #0d0c22;
+  margin: 0 5px;
+}
+
+.inp .inp1,
+.inp2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp2 {
+  margin: 20px 0;
+}
+
+.inp input {
+  background: #f3f3f4;
+  border: 1px solid #fff;
+  height: 36px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  outline: none;
+  font-family: poppins;
+  transition: all 0.2s;
+  font-size: 14px;
+}
+
+.inp input:hover,
+input:focus {
+  border: 2px solid #ea4c89a9;
+}
+
+.inp a {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.inp2 .pass-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_submit {
+  border-radius: 5px;
+  background: #ea4c89;
+  width: 100%;
+  border: none;
+  height: 36px;
+  margin: 20px 0;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn_submit:hover {
+  background: #ff3683;
+}
